@@ -23,20 +23,73 @@ h5{
 .big_text{
     font-size: 20px;
 }
+img {
+    width: 100%;
+    border: 7px solid #E6E6E6;
+    border-radius: 3px;
+}
+p {
+    margin-bottom: 2.5em;
+}
 #logo_pic{
-    width: 105px;
-    height: 105px;
-    /*width: 100%;*/
-    /*position: absolute;*/
-    /*top: -7em;*/
+    /*width: 105px;*/
+    /*height: 105px;*/
+    width: 100%;
+    position: absolute;
+    top: -10em;
+    border: none;
 }
 #white_background{
     background-color: white;
     color: white;
+    height: 6em;
+    margin-bottom: 1em;
 }
 #gray_background{
     color: #f0f0f0;
 }
 #h3_font{
     font-family: 'Abel', sans-serif;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+.separator {
+    margin-bottom: 3em;
+}
+.circle {
+    border: 8px solid white;
+    border-radius: 50%;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1em;
+    position: relative;
+}
+.small-circle {
+    border-radius: 50%;
+    height: 1.75em;
+    width: 1.75em;
+    padding: .3em 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+    margin-right: .5em;
+}
+.red {
+    background: #E6563B;
+}
+.orange {
+    background: #EB9D3A;
+}
+.green {
+    background: #7CD06C;
+}
+.teal {
+    background: #00ABA9;
+}
+.circle>h4 {
+    padding-top: 65px;
+    padding-bottom:65px;
+}
+.extra-margin {
+    margin: 6em;
 }
