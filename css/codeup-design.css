@@ -1,0 +1,42 @@
+body{
+    background-color: #f0f0f0;
+    font-family: 'Abel', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Anton', sans-serif;
+}
+h1{
+    font-size: 64px;
+}
+h2{
+    font-size:48px ;
+}
+h3{
+    font-size:40px ;
+}
+h4{
+    font-size:32px ;
+}
+h5{
+    font-size:28px ;
+}
+.big_text{
+    font-size: 20px;
+}
+#logo_pic{
+    width: 105px;
+    height: 105px;
+    /*width: 100%;*/
+    /*position: absolute;*/
+    /*top: -7em;*/
+}
+#white_background{
+    background-color: white;
+    color: white;
+}
+#gray_background{
+    color: #f0f0f0;
+}
+#h3_font{
+    font-family: 'Abel', sans-serif;
+}
