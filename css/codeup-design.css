@@ -2,11 +2,14 @@ body{
     background-color: #f0f0f0;
     font-family: 'Abel', sans-serif;
 }
+li{
+    color: black;
+}
 h1,h2,h3,h4,h5,h6{
     font-family: 'Anton', sans-serif;
 }
 h1{
-    font-size: 64px;
+    font-size: 4em;
 }
 h2{
     font-size:48px ;
@@ -31,6 +34,15 @@ img {
 p {
     margin-bottom: 2.5em;
 }
+#white_background ul{
+    padding-top: 30px;
+}
+#move_img{
+    border: 0;
+    position: absolute;
+    top: -4.5em;
+    right: -20%;
+}
 #logo_pic{
     /*width: 105px;*/
     /*height: 105px;*/
@@ -44,6 +56,9 @@ p {
     color: white;
     height: 6em;
     margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
 }
 #gray_background{
     color: #f0f0f0;
@@ -60,11 +75,13 @@ p {
     border: 8px solid white;
     border-radius: 50%;
     color: white;
-    width: 200px;
-    height: 200px;
+    width: 12.5em;
+    height: 12.5em;
     margin-bottom: 1em;
     position: relative;
+
 }
+
 .small-circle {
     border-radius: 50%;
     height: 1.75em;
