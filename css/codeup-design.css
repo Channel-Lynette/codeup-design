@@ -26,6 +26,9 @@ h5{
 .big_text{
     font-size: 20px;
 }
+.medium_text{
+    font-size: 17px;
+}
 img {
     width: 100%;
     border: 7px solid #E6E6E6;
@@ -33,6 +36,9 @@ img {
 }
 p {
     margin-bottom: 2.5em;
+}
+hr{
+    border-color: #cecece;
 }
 #white_background ul{
     padding-top: 30px;
@@ -67,6 +73,7 @@ p {
     font-family: 'Abel', sans-serif;
     margin-top: .5em;
     margin-bottom: .5em;
+    padding-top: 30px;
 }
 .separator {
     margin-bottom: 3em;
@@ -109,4 +116,7 @@ p {
 }
 .extra-margin {
     margin: 6em;
+}
+.some-margin{
+    margin: 2.5em;
 }
