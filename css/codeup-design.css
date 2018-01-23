@@ -22,6 +22,7 @@ h4{
 }
 h5{
     font-size:28px ;
+    margin: 0;
 }
 .big_text{
     font-size: 20px;
@@ -38,7 +39,7 @@ p {
     margin-bottom: 2.5em;
 }
 hr{
-    border-color: #cecece;
+    border: 1px solid #cecece;
 }
 #white_background ul{
     padding-top: 30px;
@@ -69,11 +70,12 @@ hr{
 #gray_background{
     color: #f0f0f0;
 }
-#h3_font{
+.h3_font{
     font-family: 'Abel', sans-serif;
     margin-top: .5em;
     margin-bottom: .5em;
     padding-top: 30px;
+    color: black;
 }
 .separator {
     margin-bottom: 3em;
@@ -86,7 +88,14 @@ hr{
     height: 12.5em;
     margin-bottom: 1em;
     position: relative;
-
+}
+@media screen and (min-width: 768px) {
+    .circle {
+        width: 13rem;
+        height: 13rem;
+        font-size: 23px;
+        padding-top: 44px;
+    }
 }
 
 .small-circle {
@@ -119,4 +128,29 @@ hr{
 }
 .some-margin{
     margin: 2.5em;
+}
+#codeup_header{
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-size: 3.5em;
+}
+#med_logo_img{
+    border: none;
+    width: 275%;
+    position: relative;
+    top: -25px;
+    left: 35px;
+}
+#small_pics img{
+    border: 0;
+    padding: 0 5px 0 0;
+    width: 70px;
+    height: 70px;
+}
+#small_pics div{
+    border: 0;
+    padding: 0;
+}
+#small_pics .row{
+    margin-bottom: 40px;
 }
